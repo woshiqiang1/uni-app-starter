@@ -1,0 +1,17 @@
+node_modules/
+
+.vscode
+.idea
+.hbuilderx
+.DS_Store
+
+unpackage/
+
+npm-debug.log
+npm-error.log
+yarn-error.log
+pnpm-error.log
+
+package-lock.json
+yarn-lock.json
+pnpm-lock.yaml
