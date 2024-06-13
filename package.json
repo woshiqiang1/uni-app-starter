@@ -1,7 +1,7 @@
 {
   "id": "project-uni-app",
   "name": "project-uni-app",
-  "displayName": "project-uni-app demo 代码",
+  "displayName": "project-uni-app demo",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -19,6 +19,13 @@
     "url": ""
   },
   "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "8.55.0",
+    "eslint-plugin-vue": "9.19.2",
+    "husky": "8.0.3",
+    "lint-staged": "15.1.0"
+  },
   "dcloudext": {
     "category": [
       "前端页面模板",
@@ -112,11 +119,9 @@
       }
     }
   },
-  "devDependencies": {
-    "husky": "8.0.3",
-    "lint-staged": "15.1.0"
-  },
   "lint-staged": {
-		"**/*.{js,jsx,ts,tsx,json,vue,css,scss,md}": ["prettier --write"]
-	}
+    "**/*.{js,jsx,ts,tsx,json,vue,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
 }

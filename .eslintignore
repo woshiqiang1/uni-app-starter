@@ -1,0 +1,16 @@
+node_modules/
+uni_modules/
+unpackage/
+
+.vscode
+.idea
+.hbuilderx
+.DS_Store
+
+*.json
+*.md
+*.woff
+*.ttf
+*.sh
+
+
